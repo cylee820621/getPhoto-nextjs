@@ -15,8 +15,8 @@ export default function Home() {
       <Navbar />
       <p>First write a letter to your customer, then build and design around the letter</p>
       <p>every customer experiences a one on one interaction with your business</p>
-      <h1>1.Get quality photo</h1>
-      <h3>2.How do you make that happen</h3>
+      <h1>Capture your amazing life with quality photos is easy!</h1>
+      <h3>We bring you an innovative way to reach out to nearby photographers in realtime, or you can make schedule on it. ​ Just one tap, and  photographer is going for you.</h3>
       <h2>"Image of Illustrate products. don't let consumer's imagination take over" </h2>
       <Footer />
     </div>
