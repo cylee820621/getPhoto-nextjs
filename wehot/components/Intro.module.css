@@ -1,18 +1,28 @@
-.Intro {
+.IntroContainer {
   padding: 24px;
   display: flex;
+
   background-color: rgb(178, 109, 243);
-  height: 550px;
+  min-height: 550px;
 }
 .Content {
-  width: 50%;
-
+  padding-top: 40px;
   justify-content: center;
   align-items: center;
+  max-width: 600px;
+  min-width: 350px;
 }
 
 .Image {
   background-color: antiquewhite;
-  width: 50%;
+  width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and(max-width: 300px) {
+  .Intro {
+    display: column;
+  }
 }
