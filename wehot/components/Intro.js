@@ -2,9 +2,9 @@ import classes from "./Intro.module.css";
 
 function Intro() {
   return (
-    <div>
+    <div className={classes.Intro}>
       <h1>Capture your amazing life with quality photos is easy!</h1>
-      <h3>We bring you an innovative way to reach out to nearby photographers in realtime, or you can make schedule on it. ​ Just one tap, and  photographer is going for you.</h3>
+      <p>We bring you an innovative way to reach out to nearby photographers in realtime, or you can make schedule on it. ​ Just one tap, and  photographer is going for you.</p>
     </div>
   );
 }

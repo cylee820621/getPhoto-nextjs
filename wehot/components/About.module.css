@@ -1,4 +1,20 @@
-.About {
+.About h2 {
   display: flex;
+  justify-content: center;
   padding: 24px;
+}
+
+.StepSection {
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+}
+
+.StepSection .StepText {
+  display: flex;
+  color: black;
+  padding: 16px;
+}
+.StepSection .StepImage {
+  padding: 16px;
 }

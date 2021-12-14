@@ -1,8 +1,10 @@
 .Footer {
   background-color: black;
   display: flex;
-  position: sticky;
+  position: relative;
+  width: 100%;
   bottom: 0;
+  justify-content: center;
 }
 
 .Footer p {

@@ -1,4 +1,4 @@
 .Intro {
-  display: flex;
+  display: column;
   padding: 24px;
 }
