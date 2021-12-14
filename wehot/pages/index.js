@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Intro from "../components/Intro";
 import About from "../components/About";
 import Footer from "../components/Footer";
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
       <Navbar />
       <Intro />
       <About />
-
+      <Contact />
       <p>First write a letter to your customer, then build and design around the letter</p>
       <p>every customer experiences a one on one interaction with your business</p>
 
