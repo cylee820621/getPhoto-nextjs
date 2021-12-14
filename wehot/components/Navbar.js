@@ -6,11 +6,10 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <nav className={classes.Navbar}>
-      <div className={classes.leftSide}>
-        <div className={classes.logo}>
-          <h1>Inspiration</h1>
-        </div>
+      <div className={classes.logo}>
+        <h1>Inspiration</h1>
       </div>
+
       <div className={classes.rightSide}>
         <div className={classes.links}>
           <a href="">Home</a>

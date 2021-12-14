@@ -1,0 +1,10 @@
+.Footer {
+  background-color: black;
+  display: flex;
+  position: sticky;
+  bottom: 0;
+}
+
+.Footer p {
+  color: white;
+}

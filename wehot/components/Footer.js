@@ -1,5 +1,11 @@
+import classes from "./Footer.module.css";
+
 const Footer = () => {
-  return <div>Copyright 2021 Wehot</div>;
+  return (
+    <div className={classes.Footer}>
+      <p>Copyright 2021 Inspiration</p>
+    </div>
+  );
 };
 
 export default Footer;
