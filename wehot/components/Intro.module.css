@@ -1,6 +1,5 @@
 .IntroContainer {
   padding: 24px;
-  display: flex;
 
   background-color: rgb(178, 109, 243);
   min-height: 550px;
@@ -17,12 +16,13 @@
   background-color: antiquewhite;
   width: 100%;
   display: flex;
+  min-height: 400px;
   justify-content: center;
   align-items: center;
 }
 
-@media screen and(max-width: 300px) {
-  .Intro {
-    display: column;
+@media (min-width: 600px) {
+  .IntroContainer {
+    display: flex;
   }
 }
