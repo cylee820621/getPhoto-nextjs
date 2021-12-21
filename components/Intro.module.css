@@ -1,0 +1,27 @@
+.IntroContainer {
+  padding: 24px;
+
+  min-height: 550px;
+}
+.Content {
+  padding-top: 40px;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  min-width: 350px;
+}
+
+.Image {
+  background-color: antiquewhite;
+  width: 100%;
+  display: flex;
+  min-height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 600px) {
+  .IntroContainer {
+    display: flex;
+  }
+}
