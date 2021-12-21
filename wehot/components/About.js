@@ -11,12 +11,12 @@ function About() {
           <h4>One tap to find out nearby photographer</h4>
         </div>
         <div className={classes.StepImageSection}>
-          <Image src="/step1.png" alt="usage" objectFit="contain" width="360" height="600" />
+          <Image src="/app store screen shot/home.png" alt="usage" objectFit="contain" width="360" height="600" />
         </div>
       </div>
       <div className={classes.StepSection}>
         <div className={classes.StepImageSection}>
-          <Image src="/step1.png" alt="usage" objectFit="contain" width="360" height="600" />
+          <Image src="/app store screen shot/select.png" alt="usage" objectFit="contain" width="360" height="600" />
         </div>
         <div className={classes.StepTextSection}>
           <h4> Choose your preference & Make Request</h4>
@@ -27,7 +27,7 @@ function About() {
           <h4>Let's create memory!</h4>
         </div>
         <div className={classes.StepImageSection}>
-          <Image src="/step1.png" alt="usage" objectFit="contain" width="360" height="600" />
+          <Image src="/app store screen shot/recieved_request.png" alt="usage" objectFit="contain" width="360" height="600" />
         </div>
       </div>
       <div className={classes.StepSection}>
